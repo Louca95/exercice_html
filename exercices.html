@@ -22,7 +22,7 @@
             <li>Du saumon rose</li>
             <li>De la pintade avec une purée</li>
             <li> Une bûche glacée</li>
-       <p>Et le tout arrosé de <strong> Champagne !</strong> </p>
+            <p>Et le tout arrosé de <strong> Champagne !</strong> </p>
         </ul>
         <p>Après, j'ai pu déballer tous mes cadeaux :</p>
         <ol>
@@ -34,35 +34,72 @@
     <section>
         <h1>Exo 03</h1>
         <ol>
-            <li><U>HTML</U>: HyperText Markup Language</li><ul><li>'est la structure de la page html où on organise les titres, paragraphes, listes, tableaux...</ul></li>
+            <li>
+                <U>HTML</U>: HyperText Markup Language
+            </li>
+            <ul>
+               <li>'est la structure de la page html où on organise les titres, paragraphes, listes, tableaux...
+
+               </ul>
+            </li>
             <br>
     
-            <li><u>CSS</u>: Cascading Style Sheet</li><ul><li> C'est la mise en forme, le design, l'apparence (les couleurs, les tailles, les positionnements
-                sur la page)</li></ul> <br>
+            <li>
+                <u>CSS</u>: Cascading Style Sheet
+            </li>
+            <ul>
+                <li> C'est la mise en forme, le design, l'apparence (les couleurs, les tailles, les positionnements
+                sur la page)
+                </li>
+            </ul> 
+            <br>
         
         
-            <li><u>Terminologie :</u></li><ul><li>Eléments : ils définissent la structure et le contenu des objets au sein d'une page. Les plus 
-                couramment utilisés sont les niveaux de titre (h1 à h6) et les paragraphes (avec la balise p)</li></ul>
-            <br><ul><li>Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant et d'un 
+            <li>
+                <u>Terminologie :</u>
+            </li>
+            <ul>
+                <li>Eléments : ils définissent la structure et le contenu des objets au sein d'une page. Les plus 
+                couramment utilisés sont les niveaux de titre (h1 à h6) et les paragraphes (avec la balise p)
+            </li>
+            </ul>
+            <br>
+            <ul>
+                <li>Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant et d'un 
                 chevron fermant. L'ouverture d'une balise détermine le début d'un élément. Sa fermeture 
                 détermine sa fin. Le contenu qui est inséré entre une balise ouvrante et fermante 
                 représente le contenu de cet élément. Par exemple, un lien html sera encadré d'une baliseA ouvrante et fermante. Il existe aussi des balises auto-fermantes (aussi dites orphelines).</li></ul>
-            <br><ul><li>Attributs : ce sont des propriétés utilisées pour fournir des informations complémentaires 
+            <br>
+            <ul>
+                <li>Attributs : ce sont des propriétés utilisées pour fournir des informations complémentaires 
                 sur un élément. Les attributs les plus communs incluent l'attribut ID (qui identifie un 
                 élément), l'attribut CLASS (qui classifie un élément), l'attribut SRC (qui spécifie la source 
                 d'un contenu qui peut être imbriqué) et l'attribut HREF (qui contient un lien hypertexte vers 
                 une ressource liée). Les attributs sont définis au sein de la balise ouvrante après le nom de
-                l'élément :</li></ul>
+                l'élément :
+            </li>
+            </ul>
                 <pre>
                 &lt;a href="https://github.com/Ma6Tvacoder-Docs/partages">Lien</a>
                 </pre> 
 
-            <li><u>Structure :</u></li><ul><li>Un fichier HTML est un fichier de texte brut (non mis en forme) enregistré avec l'extension 
-            _.html_.</li></ul><br>
+            <li>
+                <u>Structure :</u>
+            </li>
+            <ul>
+                <li>Un fichier HTML est un fichier de texte brut (non mis en forme) enregistré avec l'extension 
+            _.html_.
+            </li>
+            </ul>
+            <br>
         
         
-            <ul><li>Tous les fichiers html ont une structure de base qui implique de déclarer les éléments 
-            suivants :</li></ul><br>
+            <ul>
+                <li>Tous les fichiers html ont une structure de base qui implique de déclarer les éléments 
+            suivants :
+            </li>
+            </ul>
+            <br>
             <pre>
         &lt;!DOCTYPE html> <br>
         &lt;html>
@@ -76,25 +113,46 @@
          &lt;html>
             </pre>
         
-        <ul><li><strong>!DOCTYPE html</strong> informe le navigateur web que le document est de type html et qu'il s'agit 
+        <ul>
+            <li>
+                <strong>!DOCTYPE html</strong> informe le navigateur web que le document est de type html et qu'il s'agit 
             (ici) de la dernière version du langage, le HTML 5. En HTML 4.01, la précédente version 
             avant la 5, cette balise s'écrivait 
-            &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 <br>
-            Frameset//EN" <a href="https://www.w3.org/TR/html4/frameset.dtd">https://www.w3.org/TR/html4/frameset.dtd></a></li></ul>
-        <ul><li>A l'intérieur de l'élément html la balise head identifie le début du document et inclut les 
+            &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 
+            <br>
+            <br>
+            Frameset//EN" <a href="https://www.w3.org/TR/html4/frameset.dtd">https://www.w3.org/TR/html4/frameset.dtd></a>
+        </li>
+        </ul>
+        <ul>
+            <li>A l'intérieur de l'élément html la balise head identifie le début du document et inclut les 
             métadonnées (informations sur la page). Le contenu à l'intérieur de la balise head n'est 
             pas affiché par le navigateur puisqu'il donne des informations sur la page (liens vers des 
             fichiers externes, utilisation du langage html, titre de la page).
-            </li></ul> <br>
-        <ul><li>Tout ce qui s'affichera dans le navigateur est inclus à l'intérieur de la balise <strong>body</strong></li></ul><br>
-        <ul><li> Quand un élément est placé au sein d'un autre (ou imbriqué) il est <strong>important</strong> d' indenter
+            </li>
+        </ul> 
+        <br>
+        <ul>
+            <li>Tout ce qui s'affichera dans le navigateur est inclus à l'intérieur de la balise <strong>body</strong>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li> Quand un élément est placé au sein d'un autre (ou imbriqué) il est <strong>important</strong> d' indenter
             cet élément en le décalant vers la droite à l'aide de la tabulation pour conserver une 
-            structure bien organisée et lisible pour tout le monde.</li></ul> <br>  
-        <ul><li> Les balises en paires comportent une balise ouvrante et une balise fermante indiquant 
-            pour chacune le début et la fin de l'élément correspondant.</li></ul><br>
-        <ul><li>Les balises auto-fermantes correspondent à des éléments ponctuels dans une page html, 
+            structure bien organisée et lisible pour tout le monde.</li>
+        </ul>
+         <br>  
+        <ul>
+            <li> Les balises en paires comportent une balise ouvrante et une balise fermante indiquant 
+            pour chacune le début et la fin de l'élément correspondant.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>Les balises auto-fermantes correspondent à des éléments ponctuels dans une page html, 
             pas besoin de fournir une information de fin (insérer une image ou un lien par exemple). 
-            Les plus courantes :</li></ul>
+            Les plus courantes :</li>
+        </ul>
         <br>
         <pre>
          &lt;br />
@@ -105,11 +163,20 @@
          &lt;link />
         </pre>
         
-            <li><u>Le W3C</u>- La validation du code <br>
+            <li
+            ><u>Le W3C</u>- La validation du code 
+            <br>
             Le <strong>World Wide Web Consortium </strong>, abrégé par le sigle <strong>W3C</strong>, est un organisme de standardisation à 
             but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du 
-            <a href="https://fr.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> telles que <a href="https://fr.wikipedia.org/wiki/HTML5">HTML5</a>, <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a>,<a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a> ,<a href="https://fr.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a> ,<a href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a> <a href="https://www.w3.org/">World Wide Web</a> 
-            <a href="https://www.w3.org/">Consortium</a>, est un organisme international qui développe des <a href="https://www.w3.org/standards/">sandars</a> pour le Web afin que les 
+            <a href="https://fr.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> telles que 
+            <a href="https://fr.wikipedia.org/wiki/HTML5">HTML5</a>, 
+            <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a>,
+            <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a> ,
+            <a href="https://fr.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a> ,
+            <a href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a> 
+            <a href="https://www.w3.org/">World Wide Web</a> 
+            <a href="https://www.w3.org/">Consortium</a>, est un organisme international qui développe des 
+            <a href="https://www.w3.org/standards/">sandars</a> pour le Web afin que les 
             gens puissent communiquer efficacement à travers Internet, autour de formats ouverts garantissant 
             une meilleure interopérabilité (c'est-à-dire une meilleure compréhension des systèmes hétérogènes à 
             travers des données et langages standardisés).Le consortium existe depuis 1994 et est dirigé par 
@@ -117,7 +184,8 @@
             centaines d'entreprises partenaires). Les membres délèguent des ingénieurs au sein du W3C et 
             participent ainsi à l'élaboration des spécifications techniques pour les technologies du Web. De 
             nombreux membres actifs font partie des équipes de développement des navigateurs (Microsoft, 
-            Mozilla, Apple, Opera, Google, etc).</li>
+            Mozilla, Apple, Opera, Google, etc).
+        </li>
     </ol>
     </section>
 </body>
