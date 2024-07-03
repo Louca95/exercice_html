@@ -20,10 +20,13 @@ section p:first-child{
     /*cible le premier p de section*/
 }
 
-section p::last-child{
+section p:last-child{
     color: rgb(255, 145, 0);
     /*cible le dernier p de section*/
 }
+/* selection au 4eme et 7eme  enfant direct
+ de la balise <section>*/
+ 
 section p:nth-child(4),
 section p:nth-child(7) {
     color: rgb(255, 0, 85);
@@ -32,6 +35,13 @@ section p:nth-child(7) {
 
 section p:nth-child(even){
     font-weight: 1000;
+    /* selection des element pair */
+}
+
+section p:nth-child(odd){
+    font-weight: 700;
+    font-style: italic;
+    /*selection des element impair*/
 }
 
 #zone3bis{
@@ -45,15 +55,17 @@ section p:nth-child(even){
 
 /* plus on est précis dans la selection
  plus la modification prendra
- le dessus sur la selection */
+ le dessus sur la selection */ 
+
+ /* selection de la class avec un . */
 .zone2 {
     background-color: brown;
 }
-
+/* selection de l'id avec # */
 #zone5{
     color: rgb(167, 6, 189);
 }
-:div {
+div {
     color: #05ff11;
     font-size: 45px;
 }

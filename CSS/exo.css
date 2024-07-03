@@ -1,0 +1,51 @@
+body{
+background-color: beige;
+}
+
+#exo1{
+    color: mediumturquoise;
+    background-color: rgb(69, 90, 88);
+}
+h1{
+    text-decoration: underline;
+}
+hr{
+    margin: 50px;
+}
+
+#exo2{
+    color: lawngreen;
+    background-color: rgb(78, 90, 66);
+}
+
+#exo3{
+    color: #ff0055;
+    background-color: #753b4f;
+}
+
+h4{
+    font-size: 50px;
+    color: #fd0202
+}
+
+section ul li:nth-child(2){
+    color: salmon;
+}
+
+section ol div{
+    font-family: fantasy;
+}
+
+section ul li:nth-child(odd){
+    color: olive;
+}
+a{
+    color: mediumvioletred;
+    font-family: monospace;
+    font-size: 3em;
+    font-style: italic;
+}
+img{
+    border-radius: 30px;
+    height: 350px;
+}
