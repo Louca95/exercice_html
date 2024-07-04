@@ -8,9 +8,6 @@ table{
     margin: 20px;
     border-collapse: collapse;
 }
-tr:last-child {
-    background-color: green;
-}
 
 td{
     border: 1px solid #000000;
@@ -18,18 +15,18 @@ td{
     padding: 20px;
     width: 10%;
 }
-.yellow{
-    background-color: yellow;
+{
+    background-color: ;
 }
-.black{
-    background-color: #000000;
+{
+    background-color: ;
 }
-.bleu{
-    background-color: blue;
+{
+    background-color: ;
 }
-.gris{
-    background-color: gray;
+{
+    background-color: ;
 }
-.blanche{
-    background-color: white;
+.violet{
+    backgroud-color:#581846
 }
