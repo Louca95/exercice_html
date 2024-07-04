@@ -1,0 +1,32 @@
+body{
+    width: 960px;
+    margin: auto;
+}
+table{
+    border: 1px solid #000000;
+    width: 1%;
+    margin: 20px;
+    border-collapse: collapse;
+}
+tr:last-child {
+    background-color: green;
+}
+
+td{
+    border: 1px solid #000000;
+    font-size: 20px;
+    padding: 20px;
+    width: 10%;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: #000000;
+}
+.bleu{
+    background-color: blue;
+}
+.gris{
+    background-color: gray;
+}
