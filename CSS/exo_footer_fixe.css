@@ -1,0 +1,27 @@
+body {
+	width: 100%;
+	margin: 10px auto;
+	font-family: cursive;
+    height: 1000px;
+}
+#content {
+	background-color: salmon;
+}
+#footer {
+	height: 80px;
+	background-color:salmon;
+	color: #fff; 
+	padding-bottom: 6px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+p {
+	font-size: 18px;
+}
+
+
+
+ 

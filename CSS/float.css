@@ -5,7 +5,7 @@ body {
 .box {
 	height: 11vh;
 	width: 15vw;
-	background: url(siamois.jpg);
+	background: url(../siamois.jpg);
 	padding: 15px;
 	margin: 30px;
 	border: 5px double #ffffff; /*taille, style, couleur de la bordure*/
