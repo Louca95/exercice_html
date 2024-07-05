@@ -1,6 +1,11 @@
 body {
 	color: white;
-	
+	font-size: 25px;
+}
+#container {
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid darkslategray;
 }
 body div header{
     font-size: 15px;
@@ -23,28 +28,71 @@ section {
 	background-color: #2a87a3;
 	height: 500px;
 	margin: 20px;
+	position: relative;
 }
-.a {
-	background-color: aqua;
-}
-
-.b {
-	background-color: blueviolet;
-}
-
-.c {
-	background-color: chartreuse;
-}
-
-.d {
-	background-color: crimson;
-}
-
 .a,
 .b,
 .c,
 .d {
-	width: 25%;
-	height: 100px;
-	float: left;
+	width: 65px;
+	height: 200px;
+	background-color: rgb(42, 165, 165);
+	float:left
+}
+.e,
+.f,
+.g,
+.h {
+	width: 65px;
+	height: 200px;
+	background-color: rgb(15, 65, 65);
+	float: right ;
+	
+}
+.i,
+.j,
+.k,
+.l {
+	width: 65px;
+	height: 200px;
+	background-color: rgb(247, 205, 226);
+}
+.m,
+.n,
+.o,
+.p {
+	width: 65px;
+	height: 200px;
+	background-color: beige ;
+}
+
+.left-top{
+	width: 400px;
+	height: 200px;
+	/* float: inline-start; */
+}
+.right-top{
+	width: 400px;
+	height: 200px;
+	float: right ;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	/* float: inline-end; */
+}
+
+.left-bottom{
+	width: 400px;
+	height: 200px;
+	/* float: left bottom; */
+}
+.right-bottom{
+	width: 400px;
+	height: 200px;
+	/* float: right bottom; */
+}
+.flex-container {
+	width: 300px;
+	height: 200px;
+	font-size: 10px; 
 }
