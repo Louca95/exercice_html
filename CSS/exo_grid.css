@@ -30,15 +30,24 @@ li a {
 }
 main {
 	padding: 2rem;
-    display: flex;
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+section{
+    grid-row: 1/3;
 }
 
-img{
+section article img{
+   width: 100%;
+}
+.info{
+   grid-column: 4/4;
    width: 100%;
 }
 
 .grid-container {
 	display: grid;
+    grid-column: 1/4;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
 }
@@ -50,11 +59,9 @@ article{
 
 aside{
     padding: 3%;
+    grid-column: 8/4;
 }
 
-div{
-    background-color: #F4F4F4;
-}
 
 
 footer {
@@ -70,9 +77,10 @@ footer {
 		grid-template-columns: 1fr;
 	}
 
-    main{
-        display: flex;
-        flex-direction: column;
+    .main1,
+    .main2,
+    .main3 {
+        grid-column: 5/5;
     }
   
 }
