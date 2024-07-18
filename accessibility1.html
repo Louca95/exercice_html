@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mauvaises Pratiques d'Accessibilité</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/accessibility1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Bienvenue sur notre site</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article tabindex="1">
+                <h2>Introduction</h2>
+                <p>Ce site est un exemple de mauvaises pratiques en accessibilité.</p>
+                <p>À vous de les trouver !</p>
+                <img src="img/chat05.PNG" tabindex="2" alt="chat abbondonner" aria-label="chat abbondonner">
+            </article>
+
+            <article>
+                <h3>Nos services</h3>
+                <p>Nous offrons une variété de services pour répondre à vos besoins.</p>
+                <h4>Service 1</h4>
+                <p>Voici une description de notre premier service.</p>
+                <img src="img/cabin.png" alt="maison ou le chat a etes abbondonner">
+                <h5>Service 2</h5>
+                <p>Voici une description de notre deuxième service.</p>
+            </article>
+
+            <article>
+                <h6>Contactez-nous</h6>
+                <p>Envoyez-nous un email pour plus d'informations.</p>
+                <label for="email">email</label>
+                <input type="email" id="email" name="email">
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h7>&copy; 2024 Notre Entreprise</h7>
+    </footer>
+</body>
+</html>
