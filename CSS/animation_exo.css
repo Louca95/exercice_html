@@ -1,0 +1,35 @@
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: blueviolet;
+	animation: move 5s infinite ease-in-out;
+	position: absolute;
+}
+@keyframes move {
+	0% {
+		left: 0;
+		top: 0;
+	}
+	25% {
+		left:calc(100% - 100px);;
+		top:0;
+	}
+    50%{
+        top: calc(100% - 100px);
+        bottom: 0;
+        
+       
+    }
+    75%{
+        left: 0;
+        right:calc(100% - 100px) ;
+        
+    }
+    100%{
+        left: 0 ;
+        top: 0;
+    }
+}
+i{
+    color: black;
+}
