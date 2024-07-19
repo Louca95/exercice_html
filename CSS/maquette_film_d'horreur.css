@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+
+}
+  body{
+    color: white
+}
+
+header{
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.container{
+    background-color: black;
+}
+main div{
+    border: 1px solid rgb(160, 6, 6);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    text-align: center;
+}
+
+figcaption{
+    color: darkred;
+}
+
+.col-1{
+    display: flex;
+    
+}
+.iconic1{
+    width: 85%;
+}
+
+.iconic2{
+    width: 78%;
+}
+.iconic3{
+    width: 100%;
+}
+.img2{
+   width: 30%;
+   float: right ; 
+   border-radius: 25%;
+   margin-bottom: 23px;
+}
+.img3{
+    width: 39%; 
+    float: right ; 
+    border-radius: 25%;
+ }
+.img4{
+    width: 57%; 
+    float: right ; 
+    border-radius: 25%;
+ }
+.banner{
+    background-color: rgb(146, 28, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+h3{
+    color: black;
+}
+form{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form div{
+    padding: 1%;
+}
+
+.fin{
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
