@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.styled{
+    background-color: #C86D35;
+}
+
+header{
+    background-color: #C86D35;
+    color : white;
+    text-align: center;
+}
+header p{
+    display: inline-flex;
+    padding: 10px;
+}
+.container1 {
+    background-image: url(../img/hero.jpg);
+    background-size: 436px;
+    height: 276px;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    width: 77%;
+    height: 5%;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #C86D35;
+    color : white;
+    text-align: center;
+}
+.envoyer{
+    width: 189px;
+} 
+@media screen and (min-width: 434px) {
+
+    .container1{
+        background-size: 100%;
+    }
+    section article img{
+        display: grid;
+        grid-template-columns: 10px;
+        row-gap: 10px;
+    }
+    
+}
