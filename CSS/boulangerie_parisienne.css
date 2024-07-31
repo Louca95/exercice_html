@@ -59,10 +59,34 @@ footer{
     .container1{
         background-size: 100%;
     }
-    section article img{
+    .grid2{
         display: grid;
-        grid-template-columns: 10px;
-        row-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+        width: 100%;
     }
-    
+    img{
+        height: 71%;
+    }
+}
+   
+    @media screen and (min-width: 740px) {
+        .container1{
+            background-size: 100%;
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            width: 100%;
+        }
+        img{
+            height: 71%;
+        }
+        .container3{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            width: 100%;
+        }
 }
