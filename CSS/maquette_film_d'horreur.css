@@ -1,17 +1,15 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.creepster-regular {
-    font-family: "Creepster", system-ui;
-
-}
-  body{
-    color: white
+body {
+    color: white;
+    font-family: 'Arial', sans-serif;
 }
 
-header{
+header {
     background-color: indigo;
     display: flex;
     flex-direction: column;
@@ -19,77 +17,118 @@ header{
     padding: 3%;
 }
 
-.container{
+.container {
     background-color: black;
+    padding: 2%;
 }
-main div{
+
+main div {
     border: 1px solid rgb(160, 6, 6);
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.col-1 {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+
+.col-1 div {
+    flex: 1;
+    min-width: 300px;
+}
+
+.iconic1, .iconic2, .iconic3 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 73px;
+}
+
+.img2, .img3, .img4 {
+    width: 62%;
+    border-radius: 25%;
+    margin-top: 28px;
+}
+
+
+.text {
+    margin-bottom: 5%;
+}
+
+.banner {
+    background-color: rgb(146, 28, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+h3 {
+    color: black;
     text-align: center;
 }
 
-figcaption{
-    color: darkred;
-}
-
-.col-1{
-    display: flex;
-    
-}
-.iconic1{
-    width: 85%;
-}
-
-.iconic2{
-    width: 78%;
-}
-.iconic3{
-    width: 100%;
-}
-.img2{
-   width: 30%;
-   float: right ; 
-   border-radius: 25%;
-   margin-bottom: 23px;
-}
-.img3{
-    width: 39%; 
-    float: right ; 
-    border-radius: 25%;
- }
-.img4{
-    width: 57%; 
-    float: right ; 
-    border-radius: 25%;
- }
-.banner{
-    background-color: rgb(146, 28, 12);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1%;
-}
-h3{
-    color: black;
-}
-form{
+form {
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
-form div{
-    padding: 1%;
-    border: 1% solid black;
+    padding: 2%;
+    border: 1px solid rgb(160, 6, 6);
+    margin-bottom: 5%;
 }
 
-.fin{
+form div {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.fin {
     background-color: indigo;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1%;
+    text-align: center;
+    padding: 2%;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: red;
+    }
+
+    .col-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconic1, .iconic2, .iconic3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .img2, .img3, .img4 {
+        width: 70%;
+    }
+
+    .text {
+        margin-bottom: 15%;
+    }
+
+    .banner {
+        padding: 5%;
+    }
+
+    form {
+        width: 100%;
+    }
 }
